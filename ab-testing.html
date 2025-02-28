@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A/B Testing - UX Research Methods</title>
+    <link rel="stylesheet" href="methods-styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="ux-research-methods.html" class="header__logo">Atlys</a>
+    </header>
+
+    <main class="main">
+        <section class="hero hero_dark">
+            <div class="hero__navigation">
+                <a href="ux-research-methods.html" class="hero__back">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-label="Back•arrow-icon">
+                        <path d="M7.68848 13.2376L9.99858 15.5477C10.1446 15.6937 10.2176 15.8796 10.2176 16.1053C10.2176 16.331 10.1446 16.5168 9.99858 16.6629C9.85254 16.8089 9.66667 16.8819 9.44097 16.8819C9.21527 16.8819 9.0294 16.8089 8.88336 16.6629L5.21906 12.9986C5.1394 12.9189 5.08298 12.8326 5.04979 12.7397C5.0166 12.6468 5 12.5472 5 12.441C5 12.3348 5.0166 12.2352 5.04979 12.1422C5.08298 12.0493 5.1394 11.963 5.21906 11.8834L8.88336 8.21906C9.0294 8.07302 9.21527 8 9.44097 8C9.66667 8 9.85254 8.07302 9.99858 8.21906C10.1446 8.3651 10.2176 8.55097 10.2176 8.77667C10.2176 9.00237 10.1446 9.18824 9.99858 9.33428L7.68848 11.6444H18.2034C18.4291 11.6444 18.6183 11.7207 18.771 11.8734C18.9237 12.0261 19 12.2153 19 12.441C19 12.6667 18.9237 12.8559 18.771 13.0085C18.6183 13.1612 18.4291 13.2376 18.2034 13.2376H7.68848Z" fill="#DCDCDC"/>
+                    </svg>
+                </a>
+                <div class="method_category_chip">
+                    <div class="method_chip__dot"></div>
+                    <span class="method_chip__text">Evaluation Method</span>
+                </div>
+            </div>
+            <h1 class="hero__title">A/B Testing</h1>
+            <p class="hero__description">Test different design variations with real users to make data-driven decisions.</p>
+        </section>
+
+        <section class="metrics">
+            <div class="metrics__item">
+                <h2 class="metrics__label">Time Required</h2>
+                <p class="metrics__value">1-4 weeks</p>
+            </div>
+            <div class="metrics__item">
+                <h2 class="metrics__label">Participants Needed</h2>
+                <p class="metrics__value">100+ users per variant</p>
+            </div>
+            <div class="metrics__item">
+                <h2 class="metrics__label">Difficulty Level</h2>
+                <p class="metrics__value">Advanced</p>
+            </div>
+        </section>
+
+        <section class="overview">
+            <h2 class="overview__title">Overview</h2>
+            <p class="overview__content">A/B testing is a statistical research method where two versions of a variable (web page, app feature, or design element) are shown to different segments of users at the same time to determine which version performs better for a given conversion goal.</p>
+        </section>
+
+        <section class="usage">
+            <h2 class="usage__title">Usage</h2>
+            <div class="usage__grid">
+                <div class="usage__when">
+                    <h3 class="usage__subtitle">When to use</h3>
+                    <p>During optimization phases when you have a clear goal. Particularly effective for evaluating conversion rates, user engagement metrics, and feature adoption. When you have sufficient traffic to achieve statistical significance. Testing specific changes with measurable outcomes.</p>
+                </div>
+                <div class="usage__when_not">
+                    <h3 class="usage__subtitle">When not to use</h3>
+                    <p>Testing too many multiple variables. When your traffic is too low for statistical significance. Qualitative or complex feature evaluation that needs more context. Complex design changes that can't be measured directly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <h2 class="process__title">Process</h2>
+            <div class="process__steps">
+                <div class="process__step">
+                    <span class="process__number">1</span>
+                    <div class="process__content">
+                        <h3 class="process__step_title">Preparation</h3>
+                        <ul class="process__list">
+                            <li>Define clear hypothesis and success metrics</li>
+                            <li>Calculate required sample size and test duration</li>
+                            <li>Ensure tracking and analytics are properly set up</li>
+                            <li>Document potential confounding variables</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="process__step">
+                    <span class="process__number">2</span>
+                    <div class="process__content">    
+                        <h3 class="process__step_title">Test Setup</h3>
+                        <ul class="process__list">
+                            <li>Create control (A) and variant (B) versions</li>
+                            <li>Implement proper tracking mechanisms</li>
+                            <li>Set traffic split between variants</li>
+                            <li>Test technical implementation</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="process__step">
+                    <span class="process__number">3</span>
+                    <div class="process__content">    
+                        <h3 class="process__step_title">Quality Assurance</h3>
+                        <ul class="process__list">
+                            <li>Verify tracking is working correctly</li>
+                            <li>Ensure proper user segmentation</li>
+                            <li>Check that data is being recorded accurately</li>
+                            <li>Test both variants across different devices/browsers</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="process__step">
+                    <span class="process__number">4</span>
+                    <div class="process__content">    
+                        <h3 class="process__step_title">Running the Test</h3>
+                        <ul class="process__list">
+                            <li>Launch the test</li>
+                            <li>Monitor for technical issues</li>
+                            <li>Avoid making other changes during the test period</li>
+                            <li>Track test progress and sample size</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="process__step">
+                    <span class="process__number">5</span>
+                    <div class="process__content">    
+                        <h3 class="process__step_title">Analysis</h3>
+                        <ul class="process__list">
+                            <li>Check for statistical significance</li>
+                            <li>Examine key metrics and conversion rates</li>
+                            <li>Look for segment-specific impacts</li>
+                            <li>Document unexpected behavior or anomalies</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="process__step">
+                    <span class="process__number">6</span>
+                    <div class="process__content">    
+                        <h3 class="process__step_title">Documentation</h3>
+                        <ul class="process__list">
+                            <li>Record methodology and parameters</li>
+                            <li>Document all findings, including unexpected results</li>
+                            <li>Make screenshots and technical implementation notes</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="process__step">
+                    <span class="process__number">7</span>
+                    <div class="process__content">
+                        <h3 class="process__step_title">Implementation & Learning</h3>
+                        <ul class="process__list">
+                            <li>Implement winning variant if clear</li>
+                            <li>Document learnings for future tests</li>
+                            <li>Share insights with stakeholders</li>
+                            <li>Update testing roadmap based on findings</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="examples">
+            <h2 class="examples__title">Example Questions</h2>
+            <ul class="examples__list">
+                <li>"What is the conversion rate for each design?"</li>
+                <li>"How does user engagement differ between versions?"</li>
+                <li>"What is the impact on key business metrics?"</li>
+                <li>"Are there any unintended consequences?"</li>
+                <li>"How do different user segments respond to each variant?"</li>
+            </ul>
+        </section>
+
+        <section class="pairs">
+            <h2 class="pairs__title">Pairs well with</h2>
+            <div class="pairs__grid">
+                <div class="pairs__item">
+                    <h3 class="pairs__method">User Analytics</h3>
+                    <h4 class="pairs__subtitle">Why?</h4>
+                    <p class="pairs__description">Combine A/B testing with analytics to understand not just what won but how and why it won, and validate behavior changes with user signals.</p>
+                </div>
+                <div class="pairs__item">
+                    <h3 class="pairs__method">User Surveys</h3>
+                    <h4 class="pairs__subtitle">Why?</h4>
+                    <p class="pairs__description">Use surveys to gather qualitative feedback that helps explain the test results, providing context for the numbers.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="next_method">
+        <a href="accessibility-evaluation.html">
+        <div class="next_method__content">
+            <p class="next_method__label">Up Next</p>
+            <h2 class="next_method__title">Accessibility Evaluation</h2>
+            <p class="next_method__description">Assess your product's ability for universal access</p>
+        </div>
+        </a>
+    </section>
+
+    <footer class="header">
+        <a href="ux-research-methods.html" class="header__logo">Atlys</a>
+    </footer>
+</body>
+</html>
