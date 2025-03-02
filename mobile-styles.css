@@ -1,0 +1,209 @@
+/* Mobile styless*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Tablet styles */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .header {
+        padding: 0 40px;
+    }
+
+    .hero {
+        padding: 80px 40px;
+        min-height: 400px;
+    }
+
+    .hero__title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    /* Featured methods section */
+    .featured-methods {
+        padding: 80px 40px;
+    }
+
+    .featured-methods__grid {
+        gap: 20px;
+    }
+
+    .featured-card--large {
+        width: 100%;
+    }
+
+    /* Browse methods section */
+    .browse-methods {
+        padding: 0 40px 80px;
+    }
+
+    .browse-methods__grid {
+        gap: 20px;
+    }
+
+    .method-card {
+        flex: 1 0 45%;
+    }
+}
+
+/* Mobile styles - iPhone SE and similar */
+@media screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        padding: 0 20px;
+        height: 50px;
+    }
+
+    /* Hero section */
+    .hero {
+        padding: 60px 20px;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__title {
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 16px;
+        order: 1;
+    }
+    
+    .hero__description {
+        order: 2;
+    }
+
+    .hero__description {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* Featured methods section */
+    .featured-methods {
+        padding: 60px 20px;
+    }
+
+    .featured-methods__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 32px;
+    }
+
+    .featured-methods__grid {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .featured-card--large {
+        width: auto;
+        max-width: 100%;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+
+    .featured-cards-secondary {
+        width: 100%;
+    }
+
+    .featured-card--small {
+        padding: 24px;
+    }
+
+    .featured-card__title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .featured-card--small .featured-card__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+
+    .featured-card__description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .featured-card--small .featured-card__description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* Metrics */
+    .metrics {
+        flex-direction: row;
+        gap: 16px;
+        margin-top: 24px;
+    }
+
+    .metric__label {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 4px;
+    }
+
+    .metric__value {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    /* Browse methods section */
+    .browse-methods {
+        padding: 0 20px 60px;
+    }
+
+    .browse-methods__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 32px;
+    }
+
+    .browse-methods__grid {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .method-card {
+        flex: 1 0 100%;
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    .method-details-top {
+        height: auto;
+        padding: 24px 24px 0 24px;
+    }
+
+    .method-details-container {
+        height: auto;
+        gap: 24px;
+        padding-bottom: 24px;
+    }
+
+    .method-name {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .method-description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .method-details-bottom {
+        height: auto;
+        min-height: 200px;
+        padding: 24px;
+    }
+
+    .method-details-bottom p {
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 100%;
+    }
+}
