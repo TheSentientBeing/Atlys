@@ -1,0 +1,199 @@
+/* Mobile styles for Atlys UX Research Methods - Method Details Page */
+
+/* Override min-width for mobile */
+@media screen and (max-width: 768px) {
+    body {
+        min-width: unset;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Header adjustments */
+    .header {
+        padding: 0 20px;
+        height: 50px;
+    }
+
+    /* Hero section adjustments */
+    .hero_dark {
+        padding: 60px 20px;
+        min-height: auto;
+    }
+
+    .hero__navigation {
+        margin-bottom: 32px;
+    }
+
+    .hero__title {
+        font-size: 36px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+    }
+
+    .hero__description {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    /* Metrics section */
+    .metrics {
+        padding: 32px 20px;
+        gap: 16px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .metrics__item {
+        flex: 1 0 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        width: auto;
+        max-width: 100%;
+    }
+
+    /* Content sections adjustments */
+    .overview, 
+    .usage, 
+    .process, 
+    .examples, 
+    .pairs {
+        padding: 40px 20px;
+    }
+
+    /* Section titles */
+    .overview__title, 
+    .usage__title, 
+    .process__title, 
+    .examples__title, 
+    .pairs__title {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    /* Overview section */
+    .overview__content {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    /* Usage section */
+    .usage__grid {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .usage__when, 
+    .usage__when_not {
+        flex: 1 0 100%;
+        padding: 20px;
+    }
+
+    .usage__subtitle {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    /* Process section */
+    .process__step {
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .process__step_title {
+        font-size: 20px;
+    }
+
+    /* Pairs section */
+    .pairs__grid {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .pairs__item {
+        flex: 1 0 100%;
+        padding: 20px;
+    }
+
+    .pairs__method {
+        font-size: 20px;
+        min-height: unset;
+        margin-bottom: 12px;
+    }
+
+    /* Next method section */
+    .next_method {
+        padding: 53px 20px;
+        min-height: 170px;
+        display: flex;
+        align-items: center;
+    }
+
+    .next_method__title {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .next_method__description {
+        font-size: 18px;
+    }
+
+    /* Process number */
+    .process__number {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+        font-size: 14px;
+    }
+
+    /* Method category chip */
+    .method_category_chip {
+        padding: 6px 12px;
+    }
+
+    /* Back button */
+    .hero__back {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* Tablet styles */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .metrics {
+        flex-wrap: wrap;
+    }
+    
+    .metrics__item {
+        flex: 1 0 45%;
+    }
+
+    .process__step {
+        flex-direction: row;
+    }
+}
+
+/* Small mobile styles */
+@media screen and (max-width: 480px) {
+    .hero__title {
+        font-size: 32px;
+    }
+    
+    .hero__description {
+        font-size: 16px;
+    }
+    
+    .process__step {
+        padding: 16px;
+    }
+    
+    .overview__content,
+    .usage__when, 
+    .usage__when_not,
+    .pairs__item,
+    .examples__list {
+        padding: 16px;
+    }
+}
